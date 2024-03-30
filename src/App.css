@@ -1,0 +1,72 @@
+@keyframes fall {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+.dollar-bill {
+  position: fixed;
+  top: 0;
+  animation: fall linear forwards;
+}
+
+.header {
+  font-size: 34px; /* Adjust the size as needed */
+  color: #333; /* Change the color as desired */
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-align: left; /* Aligns text to the left */
+  position: absolute;
+  z-index: 10000;
+}
+
+.bouncing-images-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bouncing-image {
+  position: absolute;
+  width: 100px; /* Adjust this value based on your image size */
+  height: auto;
+}
+
+.links-list {
+  position: absolute;
+  z-index: 1000;
+
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 70px; /* Removes default margin */
+  left: -50px;
+}
+
+.links-list li {
+  margin-bottom: 10px; /* Adds some space between the links */
+}
+
+.links-list a {
+  text-decoration: none; /* Removes underline from links */
+  font-size: 16px; /* Adjust the font size as needed */
+  color: black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Ensures the footer spans the entire width of its container */
+  display: flex;
+  justify-content: center; /* or 'flex-start' for left alignment */
+  padding: 0px;
+}
+
+.footer-image {
+  margin: 0 -20px; /* Negative margin causes overlap. Adjust the value as needed. */
+  width: 150px;
+  /* Add z-index if you want to control the layering of images */
+}
