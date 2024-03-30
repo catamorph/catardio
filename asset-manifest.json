@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.css": "/catardio/static/css/main.efca86c0.css",
-    "main.js": "/catardio/static/js/main.44f11ef9.js",
-    "static/js/453.1c691a90.chunk.js": "/catardio/static/js/453.1c691a90.chunk.js",
-    "static/media/dollars.png": "/catardio/static/media/dollars.dd890f695a3950816e72.png",
-    "static/media/dollar.gif": "/catardio/static/media/dollar.4eb00db8e851936f5137.gif",
-    "static/media/catardio.png": "/catardio/static/media/catardio.3c1fe38a41b5f4125f22.png",
-    "index.html": "/catardio/index.html",
-    "main.efca86c0.css.map": "/catardio/static/css/main.efca86c0.css.map",
-    "main.44f11ef9.js.map": "/catardio/static/js/main.44f11ef9.js.map",
-    "453.1c691a90.chunk.js.map": "/catardio/static/js/453.1c691a90.chunk.js.map"
+    "main.css": "/static/css/main.efca86c0.css",
+    "main.js": "/static/js/main.44f11ef9.js",
+    "static/js/453.1c691a90.chunk.js": "/static/js/453.1c691a90.chunk.js",
+    "static/media/dollars.png": "/static/media/dollars.dd890f695a3950816e72.png",
+    "static/media/dollar.gif": "/static/media/dollar.4eb00db8e851936f5137.gif",
+    "static/media/catardio.png": "/static/media/catardio.3c1fe38a41b5f4125f22.png",
+    "index.html": "/index.html",
+    "main.efca86c0.css.map": "/static/css/main.efca86c0.css.map",
+    "main.44f11ef9.js.map": "/static/js/main.44f11ef9.js.map",
+    "453.1c691a90.chunk.js.map": "/static/js/453.1c691a90.chunk.js.map"
   },
-  "entrypoints": [
-    "static/css/main.efca86c0.css",
-    "static/js/main.44f11ef9.js"
-  ]
+  "entrypoints": ["static/css/main.efca86c0.css", "static/js/main.44f11ef9.js"]
 }
